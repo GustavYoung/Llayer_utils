@@ -1,0 +1,129 @@
+2019/01/10 16:27:04 [3454] receiving file list
+2019/01/10 16:27:04 [3456] sent 66 bytes  received 411 bytes  190.80 bytes/sec
+2019/01/10 16:27:04 [3456] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:30:03 [3633] receiving file list
+2019/01/10 16:30:04 [3635] sent 66 bytes  received 411 bytes  136.29 bytes/sec
+2019/01/10 16:30:04 [3635] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:33:04 [3736] receiving file list
+2019/01/10 16:33:04 [3738] sent 66 bytes  received 411 bytes  190.80 bytes/sec
+2019/01/10 16:33:04 [3738] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:36:03 [3840] receiving file list
+2019/01/10 16:36:04 [3842] sent 66 bytes  received 411 bytes  136.29 bytes/sec
+2019/01/10 16:36:04 [3842] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:39:04 [4007] receiving file list
+2019/01/10 16:39:04 [4009] sent 66 bytes  received 411 bytes  136.29 bytes/sec
+2019/01/10 16:39:04 [4009] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:42:04 [4339] receiving file list
+2019/01/10 16:42:04 [4341] sent 66 bytes  received 411 bytes  190.80 bytes/sec
+2019/01/10 16:42:04 [4341] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:45:03 [4513] receiving file list
+2019/01/10 16:45:04 [4515] sent 66 bytes  received 411 bytes  136.29 bytes/sec
+2019/01/10 16:45:04 [4515] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:48:03 [4679] receiving file list
+2019/01/10 16:48:04 [4681] sent 66 bytes  received 411 bytes  136.29 bytes/sec
+2019/01/10 16:48:04 [4681] total size is 24.82M  speedup is 52,032.75
+2019/01/10 16:51:04 [4802] receiving file list
+2019/01/10 16:51:04 [4816] .d..t...... ./
+2019/01/10 16:51:04 [4816] cd+++++++++ vidfullscreen/
+2019/01/10 16:51:04 [4816] sent 77 bytes  received 450 bytes  150.57 bytes/sec
+2019/01/10 16:51:04 [4816] total size is 24.82M  speedup is 47,096.05
+2019/01/10 16:54:04 [4916] receiving file list
+2019/01/10 16:54:04 [4918] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 16:54:04 [4918] total size is 24.82M  speedup is 48,953.89
+2019/01/10 16:57:04 [5019] receiving file list
+2019/01/10 16:57:04 [5021] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 16:57:04 [5021] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:00:03 [5149] receiving file list
+2019/01/10 17:00:04 [5151] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:00:04 [5151] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:03:04 [5406] receiving file list
+2019/01/10 17:03:04 [5408] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:03:04 [5408] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:06:04 [5550] receiving file list
+2019/01/10 17:06:04 [5552] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 17:06:04 [5552] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:09:03 [5652] receiving file list
+2019/01/10 17:09:04 [5654] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:09:04 [5654] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:12:04 [5788] receiving file list
+2019/01/10 17:12:04 [5790] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:12:04 [5790] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:15:04 [5907] receiving file list
+2019/01/10 17:15:05 [5909] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:15:05 [5909] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:18:04 [6009] receiving file list
+2019/01/10 17:18:04 [6023] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:18:04 [6023] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:21:04 [6233] receiving file list
+2019/01/10 17:21:04 [6259] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 17:21:04 [6259] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:24:03 [6416] receiving file list
+2019/01/10 17:24:04 [6430] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:24:04 [6430] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:27:04 [6564] receiving file list
+2019/01/10 17:27:04 [6566] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:27:04 [6566] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:30:04 [6692] receiving file list
+2019/01/10 17:30:04 [6694] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:30:04 [6694] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:33:04 [6944] receiving file list
+2019/01/10 17:33:04 [6949] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 17:33:04 [6949] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:36:03 [7072] receiving file list
+2019/01/10 17:36:04 [7074] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:36:04 [7074] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:39:03 [7291] receiving file list
+2019/01/10 17:39:04 [7293] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:39:04 [7293] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:42:04 [7500] receiving file list
+2019/01/10 17:42:04 [7649] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:42:04 [7649] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:45:02 [1246] rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+2019/01/10 17:45:02 [1246] rsync error: unexplained error (code 255) at io.c(226) [Receiver=3.1.1]
+2019/01/10 17:48:04 [1373] receiving file list
+2019/01/10 17:48:04 [1376] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:48:04 [1376] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:51:04 [1526] receiving file list
+2019/01/10 17:51:04 [1528] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 17:51:04 [1528] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:54:04 [1652] receiving file list
+2019/01/10 17:54:04 [1654] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 17:54:04 [1654] total size is 24.82M  speedup is 48,953.89
+2019/01/10 17:57:04 [1821] receiving file list
+2019/01/10 17:57:04 [1823] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 17:57:04 [1823] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:00:02 [2013] rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+2019/01/10 18:00:02 [2013] rsync error: unexplained error (code 255) at io.c(226) [Receiver=3.1.1]
+2019/01/10 18:03:04 [2126] receiving file list
+2019/01/10 18:03:04 [2128] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:03:04 [2128] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:06:04 [2283] receiving file list
+2019/01/10 18:06:04 [2285] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 18:06:04 [2285] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:09:04 [2421] receiving file list
+2019/01/10 18:09:04 [2423] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 18:09:04 [2423] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:12:03 [2579] receiving file list
+2019/01/10 18:12:04 [2581] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:12:04 [2581] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:15:04 [2717] receiving file list
+2019/01/10 18:15:04 [2719] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:15:04 [2719] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:18:04 [2861] receiving file list
+2019/01/10 18:18:05 [2863] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:18:05 [2863] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:21:03 [3035] receiving file list
+2019/01/10 18:21:04 [3037] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:21:04 [3037] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:24:07 [3154] receiving file list
+2019/01/10 18:24:07 [3168] sent 67 bytes  received 440 bytes  78.00 bytes/sec
+2019/01/10 18:24:07 [3168] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:27:04 [3391] receiving file list
+2019/01/10 18:27:04 [3393] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:27:04 [3393] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:30:04 [3616] receiving file list
+2019/01/10 18:30:04 [3618] sent 67 bytes  received 440 bytes  144.86 bytes/sec
+2019/01/10 18:30:04 [3618] total size is 24.82M  speedup is 48,953.89
+2019/01/10 18:33:04 [3745] receiving file list
+2019/01/10 18:33:04 [3759] sent 67 bytes  received 440 bytes  202.80 bytes/sec
+2019/01/10 18:33:04 [3759] total size is 24.82M  speedup is 48,953.89
