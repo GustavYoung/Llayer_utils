@@ -53,4 +53,4 @@ else
         done
 fi
 if [ "$resolution" == "$d" ]
-then exit
+then done
