@@ -21,7 +21,7 @@ while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null
         then
         sleep 1;
-else
+	else
 	for entry in $BANNERPATH/*
 	do
 	/home/uslu/Llayer_utils/banner_sleep 3600;
@@ -34,7 +34,7 @@ while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null
         then
         sleep 1;
-else
+	else
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
@@ -47,7 +47,7 @@ while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null
         then
         sleep 1;
-else
+	else
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
