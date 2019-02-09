@@ -2,7 +2,7 @@
 #Copyright 2018 Gustavo Santana
 #(C) Mirai Works LLC
 #
-sleep 30;
+sleep 1;
 # Nombre de instancia para que no choque con la de uxmalstream
 resolution=$(tvservice -s | grep -oP '[[:digit:]]{1,4}x[[:digit:]]{1,4} ')
 a="1920x1080 "
@@ -29,6 +29,7 @@ else
 	done
 fi
 if [ "$resolution" == "$b" ]
+while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null
         then
         sleep 1;
@@ -41,6 +42,7 @@ else
         done
 fi
 if [ "$resolution" == "$c" ] 
+while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null
         then
         sleep 1;
@@ -53,4 +55,4 @@ else
         done
 fi
 if [ "$resolution" == "$d" ]
-then done
+exit;
