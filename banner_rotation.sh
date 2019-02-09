@@ -4,6 +4,7 @@
 #
 sleep 1;
 # Nombre de instancia para que no choque con la de uxmalstream
+
 resolution=$(tvservice -s | grep -oP '[[:digit:]]{1,4}x[[:digit:]]{1,4} ')
 a="1920x1080 "
 b="1280x720 "
@@ -55,4 +56,4 @@ else
         done
 fi
 if [ "$resolution" == "$d" ]
-exit;
+then exit
