@@ -17,7 +17,7 @@ BANNERPATH="/home/uslu/elements/banners";
 
 if [ "$resolution" == "$a" ]
         then 
-        while ;
+        while :
         do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -47,7 +47,7 @@ if [ "$resolution" == "$b" ]
 fi
 if [ "$resolution" == "$c" ] 
         then 
-        while :;
+        while :
         do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
