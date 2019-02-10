@@ -29,7 +29,8 @@ if [ "$resolution" == "$a" ]; then
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
 	#sleep 240;
 	done
-elif [ "$resolution" == "$b" ]; then
+fi
+if [ "$resolution" == "$b" ]; then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -41,8 +42,8 @@ elif [ "$resolution" == "$b" ]; then
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
         #sleep 240;
         done
-exit;
-elif [ "$resolution" == "$c" ]; then
+fi
+if [ "$resolution" == "$c" ]; then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -55,10 +56,13 @@ elif [ "$resolution" == "$c" ]; then
         #sleep 240;
         done
 exit;
-elif [ "$resolution" == "$d" ]; then
+fi
+if [ "$resolution" == "$d" ]; then
 
 exit;
+fi
 
+date;
 
 
 #./glibimg -b 0 -l 3 Overlay.png &
