@@ -16,7 +16,8 @@ SERVICE="Banner_layer_L";
 BANNERPATH="/home/uslu/elements/banners";
 
 if [ "$resolution" == "$a" ]
-        then while true; do
+        then 
+        while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -29,7 +30,8 @@ if [ "$resolution" == "$a" ]
 	done
 fi
 if [ "$resolution" == "$b" ]
-        then while true; do
+        then 
+        while true; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -42,7 +44,8 @@ if [ "$resolution" == "$b" ]
         done
 fi
 if [ "$resolution" == "$c" ] 
-        then while true; do
+        then 
+        while true; do
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
