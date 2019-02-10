@@ -30,6 +30,7 @@ if [ "$resolution" == "$a" ]; then
 	#sleep 240;
 	done
 fi
+
 if [ "$resolution" == "$b" ]; then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
@@ -43,6 +44,7 @@ if [ "$resolution" == "$b" ]; then
         #sleep 240;
         done
 fi
+
 if [ "$resolution" == "$c" ]; then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
@@ -57,14 +59,12 @@ if [ "$resolution" == "$c" ]; then
         done
 exit;
 fi
-if [ "$resolution" == "$d" ]; then
 
-exit;
+if [ "$resolution" == "$d" ]; then
+        exit;
 fi
 
 date;
-
-
 #./glibimg -b 0 -l 3 Overlay.png &
 #raspivid -t 0
 #killall pngview
