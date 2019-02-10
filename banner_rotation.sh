@@ -19,13 +19,13 @@ echo "$resolution"
 
 if [ "$resolution" == "$a" ]
 then
-        boxed="--win '0 0 1920 1080'";
+        boxed="--win 0,0,1920,1080";
 elif [ "$resolution" == "$b" ]; 
 then
-        boxed="--win '0 0 1280 720'";
+        boxed="--win 0,0,1280,720";
 elif [ "$resolution" == "$c" ]; 
 then
-        boxed="--win '26 37 692 443'";
+        boxed="--win 26,37,692,443";
 elif [ "$resolution" == "$d" ]; 
 then
         exit;
