@@ -29,7 +29,8 @@ if [ "$resolution" == "$a" ]; then
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
 	#sleep 240;
 	done
-elif [ "$resolution" == "$b" ]; then
+elif [ "$resolution" == "$b" ]; 
+then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -41,7 +42,8 @@ elif [ "$resolution" == "$b" ]; then
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
         #sleep 240;
         done
-elif [ "$resolution" == "$c" ]; then
+elif [ "$resolution" == "$c" ]; 
+then
         while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -53,7 +55,8 @@ elif [ "$resolution" == "$c" ]; then
         /home/uslu/Llayer_utils/bannerimg2 --win '26 37 692 443' -a fill -l -10 -k "$entry";
         #sleep 240;
         done
-elif [ "$resolution" == "$d" ]; then
+elif [ "$resolution" == "$d" ]; 
+then
         exit;
 fi
 
