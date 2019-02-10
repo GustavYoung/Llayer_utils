@@ -61,6 +61,7 @@ if [ "$resolution" == "$c" ]
         /home/uslu/Llayer_utils/bannerimg2 --win '26 37 692 443' -a fill -l -10 -k "$entry";
         #sleep 240;
         done )
+exit;
 fi
 if [ "$resolution" == "$d" ]
         then exit
