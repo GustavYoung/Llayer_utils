@@ -15,6 +15,8 @@ SERVICE="Banner_layer_L";
 
 BANNERPATH="/home/uslu/elements/banners";
 
+echo "$resolution"
+
 if [ "$resolution" == "$a" ]
         then 
         while :
