@@ -59,3 +59,5 @@ if [ "$resolution" == "$c" ]
 fi
 if [ "$resolution" == "$d" ]
         then exit 1;
+fi
+done
