@@ -40,7 +40,7 @@ else
 	for entry in $BANNERPATH/*
 	do
 	/home/uslu/Llayer_utils/banner_sleep 3600;
-        /home/uslu/Llayer_utils/bannerimg2 "$boxed" -l 10 -k "$entry";
+        /home/uslu/Llayer_utils/bannerimg2 $boxed -l 10 -k "$entry";
 	#sleep 240;
 	done
 fi
