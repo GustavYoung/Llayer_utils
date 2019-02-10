@@ -43,7 +43,7 @@ if [ "$resolution" == "$b" ]
         done
 fi
 if [ "$resolution" == "$c" ] 
-        while true; do
+        then while true; do
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
