@@ -31,6 +31,7 @@ if [ "$resolution" == "$a" ]
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
 	#sleep 240;
 	done )
+exit;
 fi
 if [ "$resolution" == "$b" ]
         then 
@@ -46,6 +47,7 @@ if [ "$resolution" == "$b" ]
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
         #sleep 240;
         done )
+exit;
 fi
 if [ "$resolution" == "$c" ] 
         then 
