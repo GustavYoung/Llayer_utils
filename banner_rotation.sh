@@ -17,7 +17,8 @@ BANNERPATH="/home/uslu/elements/banners";
 
 if [ "$resolution" == "$a" ]
         then 
-        while true; do
+        while ;
+        do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -31,7 +32,8 @@ if [ "$resolution" == "$a" ]
 fi
 if [ "$resolution" == "$b" ]
         then 
-        while true; do
+        while :
+        do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -45,7 +47,8 @@ if [ "$resolution" == "$b" ]
 fi
 if [ "$resolution" == "$c" ] 
         then 
-        while true; do
+        while :;
+        do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -58,6 +61,10 @@ if [ "$resolution" == "$c" ]
         done
 fi
 if [ "$resolution" == "$d" ]
-        then exit 1;
-fi
-done
+        then exit
+
+
+
+#./glibimg -b 0 -l 3 Overlay.png &
+#raspivid -t 0
+#killall pngview
