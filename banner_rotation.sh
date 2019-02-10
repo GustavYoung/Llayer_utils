@@ -18,8 +18,7 @@ BANNERPATH="/home/uslu/elements/banners";
 echo "$resolution"
 
 if [[ "$resolution" == "$a" ]]; then
-        ( while :
-        do
+        ( while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -30,11 +29,8 @@ if [[ "$resolution" == "$a" ]]; then
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
 	#sleep 240;
 	done )
-exit;
-fi
-if [[ "$resolution" == "$b" ]]; then
-        ( while :
-        do
+elif [[ "$resolution" == "$b" ]]; then
+        ( while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -46,10 +42,8 @@ if [[ "$resolution" == "$b" ]]; then
         #sleep 240;
         done )
 exit;
-fi
-if [[ "$resolution" == "$c" ]]; then
-        ( while :
-        do
+elif [[ "$resolution" == "$c" ]]; then
+        ( while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -61,8 +55,7 @@ if [[ "$resolution" == "$c" ]]; then
         #sleep 240;
         done )
 exit;
-fi
-if [[ "$resolution" == "$d" ]]; then
+elif [[ "$resolution" == "$d" ]]; then
 
 exit;
 
