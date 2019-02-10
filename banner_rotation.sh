@@ -17,8 +17,8 @@ BANNERPATH="/home/uslu/elements/banners";
 
 echo "$resolution"
 
-if [[ "$resolution" == "$a" ]]; then
-        {while :; do
+if [ "$resolution" == "$a" ]; then
+        while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -28,9 +28,9 @@ if [[ "$resolution" == "$a" ]]; then
 	/home/uslu/Llayer_utils/banner_sleep 3600;
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
 	#sleep 240;
-	done}
-elif [[ "$resolution" == "$b" ]]; then
-        {while :; do
+	done
+elif [ "$resolution" == "$b" ]; then
+        while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -40,10 +40,10 @@ elif [[ "$resolution" == "$b" ]]; then
         /home/uslu/Llayer_utils/banner_sleep 3600;
         /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
         #sleep 240;
-        done}
+        done
 exit;
-elif [[ "$resolution" == "$c" ]]; then
-        {while :; do
+elif [ "$resolution" == "$c" ]; then
+        while :; do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
         sleep 1;
@@ -53,9 +53,9 @@ elif [[ "$resolution" == "$c" ]]; then
         /home/uslu/Llayer_utils/banner_sleep 3600;
         /home/uslu/Llayer_utils/bannerimg2 --win '26 37 692 443' -a fill -l -10 -k "$entry";
         #sleep 240;
-        done}
+        done
 exit;
-elif [[ "$resolution" == "$d" ]]; then
+elif [ "$resolution" == "$d" ]; then
 
 exit;
 
