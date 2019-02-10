@@ -34,7 +34,7 @@ if [ "$resolution" == "$a" ]
 fi
 if [ "$resolution" == "$b" ]
         then 
-        while :
+        (while :
         do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -43,13 +43,13 @@ if [ "$resolution" == "$b" ]
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
-        /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";
+        /home/uslu/Llayer_utils/bannerimg2 -l -10 -k "$entry";)
         #sleep 240;
         done
 fi
 if [ "$resolution" == "$c" ] 
         then 
-        while :
+        (while :
         do
         if ps ax | grep -v grep | grep $SERVICE > /dev/null;
         then
@@ -58,7 +58,7 @@ if [ "$resolution" == "$c" ]
         for entry in $BANNERPATH/*
         do
         /home/uslu/Llayer_utils/banner_sleep 3600;
-        /home/uslu/Llayer_utils/bannerimg2 --win '26 37 692 443' -a fill -l -10 -k "$entry";
+        /home/uslu/Llayer_utils/bannerimg2 --win '26 37 692 443' -a fill -l -10 -k "$entry";)
         #sleep 240;
         done
 fi
