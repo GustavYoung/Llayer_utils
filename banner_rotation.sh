@@ -13,7 +13,7 @@ d="320x240 "
 
 SERVICE="Banner_layer_L";
 
-BANNERPATH="/home/uslu/elements/banners";
+BANNERPATH="/home/uslu/elements/Banners";
 
 echo "$resolution"
 
@@ -39,7 +39,7 @@ while true; do
 else
 	for entry in $BANNERPATH/*
 	do
-	/home/uslu/Llayer_utils/banner_sleep 3600;
+	/home/uslu/Llayer_utils/banner_sleep 333600;
         /home/uslu/Llayer_utils/bannerimg2 $boxed -l 10 -k "$entry";
 	#sleep 240;
 	done
