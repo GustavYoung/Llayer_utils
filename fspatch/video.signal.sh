@@ -16,7 +16,7 @@ sleep 60;
 TIMER="15";
 TXSEC="$(($TIMER * 60))";
 
-VIDEOPATH="/home/uslu/elements/vidfullscreen";
+VIDEOPATH="/home/uslu/elements/Spots_sin_audio";
 
 # Nombre de instancia para que no choque con la de uxmalstream
 SERVICE="omxplayer2";
@@ -30,7 +30,7 @@ else
         for entry in $VIDEOPATH/*
         do
 	echo "start $entry" >> log_$(date +%Y_%m_%d).txt;
-        if [[ `lsof | grep /home/uslu/elements/videos/` ]]
+        if [[ `lsof | grep /home/uslu/elements/Video_chico/` ]]
         then
         sleep 50;
         echo "espera por L activa" >> log_$(date +%Y_%m_%d).txt;
@@ -45,7 +45,7 @@ else
         sleep 180;
         echo "espera por anuncio con audio" >> log_$(date +%Y_%m_%d).txt;
         fi
-	if [[ `lsof | grep /home/uslu/uxmalstream/uploads/sharedday/` ]]
+	if [[ `lsof | grep /home/uslu/elements/Spots_con_audio/` ]]
         then
         sleep 180;
         echo "espera por anuncio con audio" >> log_$(date +%Y_%m_%d).txt;

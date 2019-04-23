@@ -10,7 +10,7 @@ for dir in */
 do
 GENRE=$(basename "$dir")
 DIR_TO_CHECK="/home/uslu/elements/$GENRE"
-PATH_TO_EXCLUDE="/home/uslu/elements/vidfullscreen/*"
+PATH_TO_EXCLUDE="/home/uslu/elements/Spots_sin_audio/*"
 
 OLD_SUM_FILE="/home/uslu/Llayer_utils/db/$GENRE.txt"
 
