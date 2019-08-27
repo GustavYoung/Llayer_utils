@@ -4,9 +4,9 @@
 #Hypervisor para el servicio de la "L"
 #
 #
-#
+dirs='Banners Video_chico'
 cd /home/uslu/elements/
-for dir in */
+for dir in $dirs
 do
 GENRE=$(basename "$dir")
 DIR_TO_CHECK="/home/uslu/elements/$GENRE"
