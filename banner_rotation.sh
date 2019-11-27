@@ -40,8 +40,13 @@ else
 	for entry in $BANNERPATH/*
 	do
 	/home/uslu/Llayer_utils/banner_sleep 333600;
-        /home/uslu/Llayer_utils/bannerimg2 $boxed -l 16 -k "$entry";
-	#sleep 240;
+	( cmdpid="$BASHPID";
+          (sleep 25; sudo killall bannerimg2 && killall bannerimg2) \
+         & while !  /home/uslu/Llayer_utils/bannerimg2 $boxed -l 16 -k "$entry";
+           do
+               echo "Todo listo";
+               exit;
+           done )
 	done
 fi
 done
